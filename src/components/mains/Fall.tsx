@@ -8,9 +8,8 @@ const StyledFall = styled.main`
     background-color: #FFEAD3;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 40%; //I learned from https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/fit-content that this adapts the content to fit within its container
+    width: 40%;  
     font-size: 25px;
 `
 

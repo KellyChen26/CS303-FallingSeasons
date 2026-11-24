@@ -8,9 +8,8 @@ const StyledSpring = styled.main`
     background-color: #FFCED8;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 40%; //I learned from https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/fit-content that this adapts the content to fit within its container
+    width: 40%; 
     font-size: 25px;
 `
 
@@ -22,7 +21,7 @@ const StyledText = styled.div`
 export default function Spring() {
     return(
         <>
-            <PetalFall/>
+            <PetalFall fullScreen count={160} speed={1.5} size={[8,10]}/>
                 <br/>
             <StyledSpring>
                 <StyledText>

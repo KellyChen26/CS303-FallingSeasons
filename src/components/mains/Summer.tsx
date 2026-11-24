@@ -9,7 +9,7 @@ const StyledSummer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%; //I learned from https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/fit-content that this adapts the content to fit within its container
+    width: 40%;
     font-size: 25px;
 `
 
@@ -24,7 +24,7 @@ const Styledh3 = styled.h3`
 export default function Summer() {
     return(
         <>
-            <FallingSeason season="summer" />
+            <FallingSeason season="summer" fullScreen speed={1.5} wind={0.5} colors={["#619DC6", "#F4BE38"]} />
             <br/>
             <StyledSummer>
                 <Styledh1>Happy Summer</Styledh1>
@@ -40,3 +40,5 @@ export default function Summer() {
     )
 
 }
+
+

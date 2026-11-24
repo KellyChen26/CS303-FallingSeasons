@@ -8,7 +8,6 @@ const StyledWinter = styled.main`
     background-color: #D4EBF8;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 40%;
     font-size: 25px;
@@ -24,7 +23,7 @@ const Styledh3 = styled.h3`
 export default function Winter() {
     return(
         <>
-            <Snowfall/>
+            <Snowfall fullScreen size={[4,16]} count={150} opacity={0.8} />
             <br/>
             <StyledWinter>
                 <Styledh1>Happy Winter!</Styledh1>
