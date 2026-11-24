@@ -31,7 +31,7 @@ export default function Summer() {
                 <br/>
                 <Styledh3>Dandelion Seeds Drifting Among Golden Pollen</Styledh3>
                 <br/>
-                <img src = "/images/Summer.jpeg" alt = "A summer day at Boston Commons"/>
+                <img src = "/images/Summer.jpeg" alt = "A summer day at Boston Commons."/>
             </StyledSummer>
             <br/>
 

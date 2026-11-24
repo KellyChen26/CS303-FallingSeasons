@@ -23,7 +23,7 @@ color: saddlebrown`
 export default function Fall() {
     return(
         <>
-            <LeafFall wind={0.6} />
+            <LeafFall wind={0.6} count={130} />
             <br/>
             <StyledFall>
                 <Styledh1>Happy Fall!</Styledh1>

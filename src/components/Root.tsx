@@ -20,16 +20,16 @@ export default function Root(){
     return(
         <div id="page-wrapper">
             <Header/>
-            <Nav/>
-            <StyledMain>
-                <Routes>
-                    <Route path={'/'} element={<Home/>}/>
-                    <Route path={'/Fall'} element={<Fall/>}/>
-                    <Route path={'/Summer'} element={<Summer/>}/>
-                    <Route path={'Spring'} element={<Spring/>}/>
-                    <Route path={'Winter'} element={<Winter/>}/>
-                </Routes>
-            </StyledMain>
+                <Nav/>
+                    <StyledMain>
+                        <Routes>
+                            <Route path={'/'} element={<Home/>}/>
+                            <Route path={'/Fall'} element={<Fall/>}/>
+                            <Route path={'/Summer'} element={<Summer/>}/>
+                            <Route path={'/Spring'} element={<Spring/>}/>
+                            <Route path={'/Winter'} element={<Winter/>}/>
+                        </Routes>
+                    </StyledMain>
             <Footer/>
         </div>
     )

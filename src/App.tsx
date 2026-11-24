@@ -1,6 +1,6 @@
 import {createBrowserRouter, RouterProvider} from "react-router";
 import Root from "./components/Root.tsx"
-import './App.css'
+import "./App.css"
 
 const router=createBrowserRouter(
     [

@@ -17,7 +17,6 @@ const StyledText = styled.div`
 
 `
 
-
 export default function Home() {
     return(
         <StyledContainer>
@@ -32,7 +31,7 @@ export default function Home() {
             </StyledText>
 
             <br/>
-            <img src="/images/Home.jpeg" alt="Trees representing the four seasons - summer, spring, fall, and winter"/>
+            <img src="/images/Home.jpeg" alt="Tulips at Boston Public Garden."/>
         </StyledContainer>
     )
 }
